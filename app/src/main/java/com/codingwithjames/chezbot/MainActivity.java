@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean isSDCARDAvailable() {
-        return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)? true :false;
+        return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED);
     }
 
     private void sendMessage(String message) {
