@@ -30,7 +30,7 @@
             android:id="@+id/iv_image"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/bot" />
+            tools:srcCompat="@tools:sample/avatars[0]" />
 
         <EditText
             android:id="@+id/et_message"
@@ -44,8 +44,11 @@
             android:id="@+id/btn_send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_send_24dp"
-            android:text="Send" />
+            android:src="@drawable/send"
+
+            android:text="Send"
+            app:backgroundTint="@color/colorPrimary"
+            app:rippleColor="@android:color/background_light" />
 
     </LinearLayout>
 
